@@ -1,6 +1,8 @@
 # OCT-Coronary-Reconstruction
 This repository contains the code utilized in the paper: "A Platform for High-Fidelity Patient-SpecificStructural Modeling of Atherosclerotic Arteries: From Intravascular Imaging to Three-DimensionalStress Distributions" 
+
 ![Pipeline](https://github.com/kkadry/OCT-Coronary-Reconstruction/blob/main/Fig_Pipe.jpg)
+
 The repository consists of three sections (Image Processing, 2D Geometry, and 3D Geometry) and are to be utilized serially in that order.
 The Image Processing folder consists of multiple matlab codes which convert a point cloud representation of an optical coherence tomography image stack into a set of 2D boundary curves detailing the vessel borders and the plaque component borders.
 
