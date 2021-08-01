@@ -7,11 +7,8 @@ function [ptCloud_IN, ptCloud_OUT] = extract_boundaries_normals(points, n_theta_
 %           min_wall_thickness  (1x1) - minimum wall thickness in case the outer wall needs to be pushed away
 % OUTPUT:   ptCloud_IN          (pointCloud object) - pointcloud of the inner wall WITH normals           
 %           ptCloud_OUT         (pointCloud object) - pointcloud of the outer wall WITH normals     
-
-% NOTE : It works better with the whole artery point cloud as opposed to
-% using just the inner and outer wall points.
 %
-% NOTE 2 : The script assumes that the lumen is centred around 0,0
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 if(nargin <2)    n_theta_points = 100;  end % points per slice in inner and outer boundaries
