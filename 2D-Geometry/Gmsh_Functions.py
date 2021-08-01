@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-import gmsh
-import numpy as np
+
 
 # =============================================================================
 # This module consists of a set of functions that will be used to
@@ -73,6 +72,8 @@ import numpy as np
 # the thickness. Then, the outer vessel point is pushed out to a miniumum distance
 # away if the thickness is below a specified limit.
 # =============================================================================
+import gmsh
+import numpy as np
 #%%Function for quick visualization
 def grun():
     gmsh.model.occ.synchronize()
