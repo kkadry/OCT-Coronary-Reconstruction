@@ -5,9 +5,7 @@ import numpy as np
 import gmsh
 import copy
 from Gmsh_Functions_Submission import*
-from datetime import datetime
-#For timing purposes
-startTime = datetime.now()
+
 
 #Initialize the Gmsh kernel
 gmsh.initialize()
@@ -227,7 +225,7 @@ if lumenswitch==1:
     Outerdexlist.append(outerldex[0])
 
 
-print(datetime.now() - startTime)
+
 
 
 if fragmentswitch==1:
